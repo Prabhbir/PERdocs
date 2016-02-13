@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Adults"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="8mm" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Common Injuries "
+        android:id="@+id/button_Injuries"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentEnd="true"
+        android:onClick="infosetone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respiratory "
+        android:id="@+id/button_Respiratory"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/button_Injuries"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#f6af09"
+        android:onClick="infosetone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jaundice and Your Body"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button_Cast"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="67dp"
+        android:layout_alignParentEnd="true"
+        android:background="#454343"
+        android:onClick="infosetone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cast and Crutches "
+        android:id="@+id/button_Cast"
+        android:layout_below="@+id/button_Respiratory"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="59dp"
+        android:layout_alignParentEnd="true"
+        android:background="#bc0404"
+        android:onClick="infosetone"/>
+</RelativeLayout>
