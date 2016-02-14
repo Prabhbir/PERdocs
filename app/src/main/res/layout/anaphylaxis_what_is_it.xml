@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="What is anaphylaxis? "
+        android:id="@+id/textView8"
+        android:textSize="8mm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Anaphylaxis is a severe, life threatening, allergic reaction, which may occur in certain people with allergy, after being exposed to a food, medication, insect sting, latex and sometimes exercise. This is a major medical emergency that may affect the whole body and must be treated right away."
+        android:id="@+id/textView9"
+        android:layout_weight="0.45" />
+</LinearLayout>

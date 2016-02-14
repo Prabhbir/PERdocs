@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">PERdocs</string>
     <string name="action_settings">Settings</string>
+    <string name="WelcomeScreenKidsSection">WELCOME \nTO THE KIDS SECTION</string>
+    <string name="CategoriesButton">Categories</string>
+    <string name="GamesButton">Games</string>
+    <string name="MainCategoriesButton">Adult Section</string>
+    <string name="MainsButton2">Children Section</string>
+    <string name="title_activity_categories">Categories</string>
+    <string name="title_activity_common_injury">CommonInjury</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_games">Games</string>
+    <string name="title_activity_respiratory">Respiratory</string>
+    <string name="title_activity_crutches">Crutches</string>
+    <string name="title_activity_commoninjury2">commoninjury2</string>
+    <string name="WelcomeScreen">Welcome to Learning</string>
 </resources>

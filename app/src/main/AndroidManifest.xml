@@ -18,6 +18,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name =".Adult_home"/>
+        <activity android:name =".Anaphylaxis"/>
+        <activity android:name =".Anaphylaxis_treatment"/>
+        <activity android:name =".Anaphylaxis_what_is_it"/>
+        <activity android:name =".Cast_and_Crutches"/>
+        <activity android:name =".Common_Injuries"/>
+        <activity android:name =".Jaundice_and_Your_Body"/>
+        <activity android:name =".Respiratory"/>
+        <activity android:name=".Child_Categories" />
+        <activity android:name=".Child_Games" />
+        <activity android:name=".Child_Respiratory" />
+        <activity android:name=".Child_Crutches" />
+        <activity android:name=".Child_CommonInjury" />
+        <activity android:name=".Child_KidSection" />
     </application>
 
 </manifest>
