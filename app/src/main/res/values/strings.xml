@@ -1,3 +1,5 @@
+<!--These are string varables called with literals attched used
+throughout the program to be printed to the used -->
 <resources>
     <string name="app_name">PERdocs</string>
     <string name="action_settings">Settings</string>

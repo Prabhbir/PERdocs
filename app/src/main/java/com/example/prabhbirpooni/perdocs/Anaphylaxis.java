@@ -8,6 +8,7 @@ import android.widget.Button;
 
 /**
  * Created by prabhbir on 1/17/2016.
+ * This programs looks at the Anaphylaxis and redirects to the operate explation of Anaphylaxis
  */
 public class Anaphylaxis extends Activity {
     @Override

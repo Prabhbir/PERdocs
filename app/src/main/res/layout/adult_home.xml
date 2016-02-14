@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--This is where people choose where they want to go/learn-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+<!--This is the title above the buttons -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -13,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:textSize="8mm" />
 
-
+<!--This is the first button which is an light gray, this leads to info on common injuries-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +25,8 @@
         android:layout_marginTop="37dp"
         android:layout_alignParentEnd="true"
         android:onClick="infosetone"/>
-
+<!--This is the second button which is called Respiratory which will lead to more info on that topic
+the color of the button is orange-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,7 +38,7 @@
         android:layout_alignParentEnd="true"
         android:background="#f6af09"
         android:onClick="infosetone"/>
-
+<!--This is the third button which is blood red which will lead to more info on Jaundice and Your body-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,7 +50,7 @@
         android:layout_alignParentEnd="true"
         android:background="#454343"
         android:onClick="infosetone"/>
-
+<!--This is the fourth and last button which is Cast_crutches which to leads for more info on that topic -->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -6,21 +6,14 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="com.example.ali.myapplication.commoninjury2">
-
+<!-- This calls for the banner at the top of the app to be printed-->
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
     </android.support.design.widget.AppBarLayout>
-
+<!--Calls for the file content common_jury2 which contains most of the layout that is printed on the screen  -->
     <include layout="@layout/content_commoninjury2" />
 
 </android.support.design.widget.CoordinatorLayout>

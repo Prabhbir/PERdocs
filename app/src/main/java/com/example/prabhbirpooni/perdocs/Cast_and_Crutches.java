@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 /**
  * Created by prabhbir on 1/17/2016.
+ * A file which (needs to have button to lead to futher inofrmation about Casts and Crucches)
  */
 public class Cast_and_Crutches extends Activity {
     @Override

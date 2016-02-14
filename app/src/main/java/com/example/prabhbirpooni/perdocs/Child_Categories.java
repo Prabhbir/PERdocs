@@ -9,7 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
-
+/* A file which anaylazes what button is pressed on Child Catergories and leads to information about such topic for kids
+*/
 public class Child_Categories extends Child_KidSection{
     @Override
     public void onCreate(Bundle savedInstanceState) {

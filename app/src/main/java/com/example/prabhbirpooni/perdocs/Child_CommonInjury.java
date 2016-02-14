@@ -16,7 +16,7 @@ import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.RelativeLayout;
 import android.transition.TransitionManager;
-
+// slide show  for common injury
 public class Child_CommonInjury extends Child_Categories {
     //scenes to transition
     private Scene scene1, scene2;

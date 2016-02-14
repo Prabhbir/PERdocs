@@ -1,3 +1,4 @@
+<!--A button which square and round around the corners with the color of yellow-to red-->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle" android:layout_width="wrap_content" android:layout_height="wrap_content">
     <gradient

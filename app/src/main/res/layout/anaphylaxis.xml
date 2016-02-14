@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--The layout for anaphylaxis-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1">
+    <!-- Title construction-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -11,7 +13,7 @@
         android:id="@+id/textView3"
         android:layout_gravity="center_horizontal"
         android:textSize="8mm"/>
-
+<!--this would be for the first button-->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +22,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.03"
         android:onClick="infosetone"/>
-
+<!--This is for the second button -->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

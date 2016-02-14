@@ -11,7 +11,7 @@ import android.view.MenuItem;
 import android.content.Intent;
 import android.widget.EditText;
 import android.widget.Button;
-
+// opening screen most import java section of all be very careful
 public class MainActivity extends AppCompatActivity {
     //public final static String EXTRA_MESSAGE = "com.mycompany.myfirstapp.MESSAGE";
     private static Button button_sbm;
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.content_main);
         }
-
+//buttons which lead to either the children secition or adult section
         public void welcomeKS (View view){
             String button_text;
             button_text=((Button)view).getText().toString();

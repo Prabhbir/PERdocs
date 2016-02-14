@@ -12,7 +12,8 @@
     tools:context="com.example.ali.myapplication.commoninjury2"
     tools:showIn="@layout/activity_commoninjury2"
     android:background="#006699">
-
+<!-- Previosuly defined blue background
+Yellow text that appears in the middle of the screen-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +26,7 @@
         android:textColor="#ffdd00"
         android:textSize="40sp"
         android:textAlignment="center" />
-
+<!-- this imagine should be changed still default of andriod -->
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"

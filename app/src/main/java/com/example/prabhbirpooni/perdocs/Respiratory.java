@@ -8,6 +8,7 @@ import android.widget.Button;
 
 /**
  * Created by prabhbir on 1/17/2016.
+ * Currently analyze repiratory screen and then redirect depending on button
  */
 public class Respiratory extends Activity {
     @Override

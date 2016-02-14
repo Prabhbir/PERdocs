@@ -10,7 +10,7 @@
     android:background="#006699"
     android:id="@+id/base"
     android:onClick="changeScene">
-
+<!--Previously defined background and then the tile below and text for page in yellow lettering-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         android:textColor="#ffdd00"
         android:textSize="35sp"
         android:textAlignment="center" />
-
+<!--there should be an imagine at the bottom which currently missing and not loaded in -->
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"

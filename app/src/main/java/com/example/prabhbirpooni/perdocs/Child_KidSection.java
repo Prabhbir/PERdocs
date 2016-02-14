@@ -16,7 +16,7 @@ import android.widget.Button;
 public class Child_KidSection extends Activity {
     //public final static String EXTRA_MESSAGE = "com.mycompany.myfirstapp.MESSAGE";
 
-
+    //opening area for kids to deiced what they seek to do in either section
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

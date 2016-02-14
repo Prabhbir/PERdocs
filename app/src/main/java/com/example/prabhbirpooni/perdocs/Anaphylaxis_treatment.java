@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 /**
  * Created by prabhbir on 1/17/2016.
+ * Just a file for anaphylaxis treatment which lead to no where just informational page
  */
 public class Anaphylaxis_treatment  extends Activity {
     @Override

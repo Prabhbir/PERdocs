@@ -8,7 +8,9 @@ import android.widget.Button;
 
 /**
  * Created by prabhbirpooni on 16-02-13.
+ * The purpose of this code is to anazlyes what button is clicked on the main adult screen and redirects to the next window
  */
+
 public class Adult_home extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {

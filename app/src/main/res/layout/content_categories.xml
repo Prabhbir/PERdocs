@@ -12,7 +12,7 @@
     tools:context="com.example.ali.myapplication.Categories"
     tools:showIn="@layout/activity_categories"
     android:background="#006699">
-
+<!--The title in the center of the app in yellow wording and previous to this is the background defination color blue-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         android:textAlignment="center"
         android:textColor="#ffdd00"
         android:textSize="25sp"/>
-
+<!--The top left button, calls on the previously defined oval button and color scheme-->
     <Button
         android:background="@drawable/ovalbutton"
         android:layout_width="100dp"
@@ -35,7 +35,7 @@
         android:layout_above="@+id/textView2"
         android:layout_alignStart="@+id/textView2"
         android:onClick="wwyltL"/>
-
+    <!--The top right button, calls on the previously defined oval button and color scheme-->
     <Button
         android:background="@drawable/ovalbutton"
         android:layout_width="103dp"
@@ -45,7 +45,7 @@
         android:layout_alignBottom="@+id/button3"
         android:layout_alignEnd="@+id/textView2"
         android:onClick="wwyltL"/>
-
+    <!--The bottom button, calls on the previously defined oval button and color scheme-->
     <Button
         android:background="@drawable/ovalbutton"
         android:layout_width="100dp"
