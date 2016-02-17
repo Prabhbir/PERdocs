@@ -1,3 +1,4 @@
+<!--displays the window for the which the app is posted -->
 <resources>>
 
     <style name="AppTheme.NoActionBar">

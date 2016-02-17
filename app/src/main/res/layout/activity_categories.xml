@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--The main screen which the app opens up to -->
+<!--A button which square and round around the corners with the color of yellow-to red-->
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.prabhbirpooni.perdocs.MainActivity">
-
+    tools:context="com.example.ali.myapplication.Categories">
+<!--Calls for the banner/name of the app at the top of the screen-->
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
     </android.support.design.widget.AppBarLayout>
-<!--Calls content_main which contains the layout of the menu-->
-    <include layout="@layout/content_main" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:src="@android:drawable/ic_dialog_email" />
+<!--calls the content categories layout file which holds the entire design for this -->
+    <include layout="@layout/content_categories" />
 
 </android.support.design.widget.CoordinatorLayout>

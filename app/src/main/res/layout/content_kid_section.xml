@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Mainscreen defiantion-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,44 +10,41 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.ali.myapplication.KidSection"
-    android:background="#2c1313">
-<!--the preious code is defiantion of the backgorund
-the text located in the middle of screen is the code located below -->
+    tools:showIn="@layout/activity_kid_section"
+    android:background="#006699">
+<!--blue background defination is the code presented previosuly
+Text that appear in the middle of the screen which is yellow-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/WelcomeScreen"
-        android:id="@+id/hi"
+        android:text="@string/WelcomeScreenKidsSection"
+        android:id="@+id/textView"
         android:textColor="#ffdd00"
         android:textSize="25sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textAlignment="center" />
-<!--The first button which leads to the adult section -->
+<!--The first button which leads to information defined by buttons and colors defined in drawables-->
     <Button
-        android:background="#a61900"
+        android:background="@drawable/sample"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:text="@string/MainCategoriesButton"
+        android:text="@string/CategoriesButton"
         android:id="@+id/button"
+        android:layout_centerHorizontal="true"
         android:textSize="30dp"
-        android:onClick="welcomeKS"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
-    <!--The second button which leads to the adult section -->
+        android:onClick="welcomeKS"/>
+<!--This leads to games for the kids color and shape called from previous definitions located in drawables-->
     <Button
-        android:background="#a61900"
+        android:background="@drawable/sample"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:text="@string/MainsButton2"
+        android:text="@string/GamesButton"
         android:id="@+id/button2"
         android:textSize="50sp"
-        android:onClick="welcomeKS"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/button"
-        android:layout_alignEnd="@+id/button" />
-
+        android:onClick="welcomeKS"/>
 
 </RelativeLayout>

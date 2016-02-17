@@ -1,0 +1,14 @@
+<!--This application designed a button in the shape of an oval which can be called
+ in layout files with the color of dark yellow at one end and goes towards oragne/red  -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <gradient
+        android:startColor="#ffdd00"
+        android:endColor="#ff8040"
+        android:angle="45"/>
+    <padding android:left="6dp"
+        android:top="6dp"
+        android:right="6dp"
+        android:bottom="6dp" />
+    <corners android:radius="30dp" />
+</shape>

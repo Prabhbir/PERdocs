@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--The main screen which the app opens up to -->
+<!--leads to the games ection which is still in production and not complete-->
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.prabhbirpooni.perdocs.MainActivity">
-
+    tools:context="com.example.ali.myapplication.Games">
+<!--this is the  widget at the top of the app-->
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
     </android.support.design.widget.AppBarLayout>
-<!--Calls content_main which contains the layout of the menu-->
-    <include layout="@layout/content_main" />
+<!--this calls for the layout of all possible games for kids-->
+    <include layout="@layout/content_games" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

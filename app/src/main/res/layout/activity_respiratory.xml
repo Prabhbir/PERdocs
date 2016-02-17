@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--The main screen which the app opens up to -->
+<!-- the main section for the respiratory section breaks it down-->
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.prabhbirpooni.perdocs.MainActivity">
+    tools:context="com.example.ali.myapplication.Respiratory">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -14,8 +14,8 @@
         android:theme="@style/AppTheme.AppBarOverlay">
 
     </android.support.design.widget.AppBarLayout>
-<!--Calls content_main which contains the layout of the menu-->
-    <include layout="@layout/content_main" />
+<!--Calls for content_respiratory which holds the entire layout of the main mean which is empty at this moment -->
+    <include layout="@layout/content_respiratory" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

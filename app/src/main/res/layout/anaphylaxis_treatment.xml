@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+<!--The title for the screen-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How is anaphylaxis treated?"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:textSize="8mm"/>
+<!--This is for the first point -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1) If you or another person may be having anaphylaxis, give the epinephrine
+        auto-injector right away even if you are not sure. This will not cause any harm."
+        android:id="@+id/textView5"
+        android:layout_weight="0.35" />
+    <!--This is for the sceond point -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2) Always go to the hospital as the reaction may get worse. It is best to call 911"
+        android:id="@+id/textView6"
+        android:layout_weight="0.27" />
+    <!--This is for the third point -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3) If there are still symptoms, give another injection from a second
+        epinephrine auto-injector after 15 minutes"
+        android:id="@+id/textView7"
+        android:layout_weight="0.11" />
+
+</LinearLayout>

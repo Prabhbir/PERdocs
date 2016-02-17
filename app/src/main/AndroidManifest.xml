@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Most important file in enitre program be very carful when munipluating and comment below this
+ any code which you remove or add to this file minus new java file intializations -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.prabhbirpooni.perdocs">
 
@@ -18,6 +20,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--All java files in use or of relevance to final product are intialized here -->
+        <activity android:name =".Adult_home"/>
+        <activity android:name =".Anaphylaxis"/>
+        <activity android:name =".Anaphylaxis_treatment"/>
+        <activity android:name =".Anaphylaxis_what_is_it"/>
+        <activity android:name =".Cast_and_Crutches"/>
+        <activity android:name =".Common_Injuries"/>
+        <activity android:name =".Jaundice_and_Your_Body"/>
+        <activity android:name =".Respiratory"/>
+        <activity android:name=".Child_Categories" />
+        <activity android:name=".Child_Games" />
+        <activity android:name=".Child_Respiratory" />
+        <activity android:name=".Child_Crutches" />
+        <activity android:name=".Child_CommonInjury" />
+        <activity android:name=".Child_KidSection" />
     </application>
 
 </manifest>
