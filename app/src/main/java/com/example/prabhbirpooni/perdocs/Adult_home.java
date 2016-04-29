@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
+/**TEST
 /**
  * Created by prabhbirpooni on 16-02-13.
  * The purpose of this code is to anazlyes what button is clicked on the main adult screen and redirects to the next window
