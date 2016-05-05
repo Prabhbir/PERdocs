@@ -1,35 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--The layout for anaphylaxis-->
+<?xml version="1.0" encoding="utf-8"?><!--The layout for anaphylaxis-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:weightSum="1">
     <!-- Title construction-->
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
         android:text="Anaphylaxis"
-        android:id="@+id/textView3"
-        android:layout_gravity="center_horizontal"
-        android:textSize="8mm"/>
-<!--this would be for the first button-->
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="What is it?"
-        android:id="@+id/button2"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.03"
-        android:onClick="infosetone"/>
-<!--This is for the second button -->
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="How is anaphylaxis treated?"
-        android:id="@+id/button4"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.06"
-        android:onClick="infosetone"/>
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="8mm" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--this would be for the first button-->
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="infosetone"
+                android:layout_weight="0.05"
+                android:text="What is it?" />
+            <!--This is for the second button -->
+            <Button
+                android:id="@+id/button6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.05"
+                android:text="New Button" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.05"
+                android:onClick="infosetone"
+                android:text="How is anaphylaxis treated?" />
+
+            <Button
+                android:id="@+id/button7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.05"
+                android:text="New Button" />
+
+            <Button
+                android:id="@+id/button8"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.05"
+                android:text="New Button" />
+
+            <Button
+                android:id="@+id/button9"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.05"
+                android:text="New Button" />
+
+            <Button
+                android:id="@+id/button10"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.05"
+                android:text="New Button" />
+
+            <Button
+                android:id="@+id/button11"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.05"
+                android:text="New Button" />
+
+            <Button
+                android:id="@+id/button12"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.05"
+                android:text="New Button" />
+
+            <Button
+                android:id="@+id/button13"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.05"
+                android:text="New Button" />
+
+            <Button
+                android:id="@+id/button14"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.05"
+                android:text="New Button" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
