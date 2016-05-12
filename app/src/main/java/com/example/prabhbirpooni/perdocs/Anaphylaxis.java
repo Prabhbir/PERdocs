@@ -23,8 +23,16 @@ public class Anaphylaxis extends Activity {
             Intent intent = new Intent(this, Anaphylaxis_what_is_it.class);
             startActivity(intent);
         }
-        if(button_text.equals("How is anaphylaxis treated?")) {
+        else if(button_text.equals("How is anaphylaxis treated?")) {
             Intent intent = new Intent(this, Anaphylaxis_treatment.class);
+            startActivity(intent);
+        }
+        else if(button_text.equals("Symptoms")) {
+            Intent intent = new Intent(this, Anaphylaxis_Symptoms.class);
+            startActivity(intent);
+        }
+        else if(button_text.equals("Avoiding it")) {
+            Intent intent = new Intent(this, Anaphylaxis_Avoiding_it.class);
             startActivity(intent);
         }
     }

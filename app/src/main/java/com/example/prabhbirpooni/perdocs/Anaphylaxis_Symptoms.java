@@ -5,15 +5,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
 /**
- * Created by prabhbir on 1/17/2016.
- * Just a file for what is  anaphylaxis  which leads to no where else end of chain
+ * Created by prabhbirpooni on 2016-05-05.
  */
-public class Anaphylaxis_what_is_it extends Activity {
-    @Override
+public class Anaphylaxis_Symptoms  extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.anaphylaxis_what_is_it);
+        setContentView(R.layout.anaphylaxis_symptoms);
     }
 }
-

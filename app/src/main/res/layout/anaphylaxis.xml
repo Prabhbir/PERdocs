@@ -39,7 +39,8 @@
                 android:layout_height="65dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.05"
-                android:text="New Button" />
+                android:onClick="infosetone"
+                android:text="Symptoms" />
 
             <Button
                 android:id="@+id/button4"
@@ -51,76 +52,16 @@
                 android:text="How is anaphylaxis treated?" />
 
             <Button
-                android:id="@+id/button7"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="0.05"
-                android:text="New Button" />
-
-            <Button
                 android:id="@+id/button8"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.05"
-                android:text="New Button" />
+                android:onClick="infosetone"
+                android:text="Avoiding it" />
 
-            <Button
-                android:id="@+id/button9"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="0.05"
-                android:text="New Button" />
 
-            <Button
-                android:id="@+id/button10"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="0.05"
-                android:text="New Button" />
-
-            <Button
-                android:id="@+id/button11"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="0.05"
-                android:text="New Button" />
-
-            <Button
-                android:id="@+id/button12"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="0.05"
-                android:text="New Button" />
-
-            <Button
-                android:id="@+id/button13"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="0.05"
-                android:text="New Button" />
-
-            <Button
-                android:id="@+id/button14"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="0.05"
-                android:text="New Button" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

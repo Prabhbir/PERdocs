@@ -25,6 +25,8 @@
         <activity android:name =".Anaphylaxis"/>
         <activity android:name =".Anaphylaxis_treatment"/>
         <activity android:name =".Anaphylaxis_what_is_it"/>
+        <activity android:name =".Anaphylaxis_Symptoms"/>
+        <activity android:name =".Anaphylaxis_Avoiding_it"/>
         <activity android:name =".Cast_and_Crutches"/>
         <activity android:name =".Common_Injuries"/>
         <activity android:name =".Jaundice_and_Your_Body"/>
